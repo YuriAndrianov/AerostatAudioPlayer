@@ -11,6 +11,15 @@
 		E20D4FB428FC2ABE0037414F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D4FB328FC2ABE0037414F /* ContentView.swift */; };
 		E20D4FB628FC2AC00037414F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20D4FB528FC2AC00037414F /* Assets.xcassets */; };
 		E20D4FB928FC2AC00037414F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20D4FB828FC2AC00037414F /* Preview Assets.xcassets */; };
+		E20D4FC528FC2C4B0037414F /* Modern Talking - You're my heart you're my soul.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20D4FBF28FC2C490037414F /* Modern Talking - You're my heart you're my soul.mp3 */; };
+		E20D4FC628FC2C4B0037414F /* СЛОТ - Москва.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20D4FC028FC2C490037414F /* СЛОТ - Москва.mp3 */; };
+		E20D4FC728FC2C4B0037414F /* MC Hammer - U can't touch this.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20D4FC128FC2C4A0037414F /* MC Hammer - U can't touch this.mp3 */; };
+		E20D4FC828FC2C4B0037414F /* Adriano Celentano - I love you baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20D4FC228FC2C4B0037414F /* Adriano Celentano - I love you baby.mp3 */; };
+		E20D4FC928FC2C4B0037414F /* DMX - Party up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20D4FC328FC2C4B0037414F /* DMX - Party up.mp3 */; };
+		E20D4FCA28FC2C4B0037414F /* Enya - Only time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20D4FC428FC2C4B0037414F /* Enya - Only time.mp3 */; };
+		E20D4FCC28FC2E020037414F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D4FCB28FC2E010037414F /* PlayerView.swift */; };
+		E20D4FCE28FC2E950037414F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D4FCD28FC2E950037414F /* Player.swift */; };
+		E20D4FD028FC35DA0037414F /* TappableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D4FCF28FC35DA0037414F /* TappableSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,16 @@
 		E20D4FB328FC2ABE0037414F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E20D4FB528FC2AC00037414F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E20D4FB828FC2AC00037414F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E20D4FBF28FC2C490037414F /* Modern Talking - You're my heart you're my soul.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Modern Talking - You're my heart you're my soul.mp3"; sourceTree = "<group>"; };
+		E20D4FC028FC2C490037414F /* СЛОТ - Москва.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "СЛОТ - Москва.mp3"; sourceTree = "<group>"; };
+		E20D4FC128FC2C4A0037414F /* MC Hammer - U can't touch this.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MC Hammer - U can't touch this.mp3"; sourceTree = "<group>"; };
+		E20D4FC228FC2C4B0037414F /* Adriano Celentano - I love you baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Adriano Celentano - I love you baby.mp3"; sourceTree = "<group>"; };
+		E20D4FC328FC2C4B0037414F /* DMX - Party up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DMX - Party up.mp3"; sourceTree = "<group>"; };
+		E20D4FC428FC2C4B0037414F /* Enya - Only time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Enya - Only time.mp3"; sourceTree = "<group>"; };
+		E20D4FCB28FC2E010037414F /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		E20D4FCD28FC2E950037414F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E20D4FCF28FC35DA0037414F /* TappableSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableSlider.swift; sourceTree = "<group>"; };
+		E20D4FD328FC45F20037414F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +70,19 @@
 		E20D4FB028FC2ABE0037414F /* AerostatPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				E20D4FD328FC45F20037414F /* Info.plist */,
 				E20D4FB128FC2ABE0037414F /* AerostatPlayerApp.swift */,
 				E20D4FB328FC2ABE0037414F /* ContentView.swift */,
+				E20D4FCB28FC2E010037414F /* PlayerView.swift */,
+				E20D4FCF28FC35DA0037414F /* TappableSlider.swift */,
+				E20D4FCD28FC2E950037414F /* Player.swift */,
 				E20D4FB528FC2AC00037414F /* Assets.xcassets */,
+				E20D4FC028FC2C490037414F /* СЛОТ - Москва.mp3 */,
+				E20D4FC228FC2C4B0037414F /* Adriano Celentano - I love you baby.mp3 */,
+				E20D4FC328FC2C4B0037414F /* DMX - Party up.mp3 */,
+				E20D4FC428FC2C4B0037414F /* Enya - Only time.mp3 */,
+				E20D4FC128FC2C4A0037414F /* MC Hammer - U can't touch this.mp3 */,
+				E20D4FBF28FC2C490037414F /* Modern Talking - You're my heart you're my soul.mp3 */,
 				E20D4FB728FC2AC00037414F /* Preview Content */,
 			);
 			path = AerostatPlayer;
@@ -126,7 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20D4FB928FC2AC00037414F /* Preview Assets.xcassets in Resources */,
+				E20D4FC828FC2C4B0037414F /* Adriano Celentano - I love you baby.mp3 in Resources */,
 				E20D4FB628FC2AC00037414F /* Assets.xcassets in Resources */,
+				E20D4FC528FC2C4B0037414F /* Modern Talking - You're my heart you're my soul.mp3 in Resources */,
+				E20D4FC928FC2C4B0037414F /* DMX - Party up.mp3 in Resources */,
+				E20D4FCA28FC2C4B0037414F /* Enya - Only time.mp3 in Resources */,
+				E20D4FC728FC2C4B0037414F /* MC Hammer - U can't touch this.mp3 in Resources */,
+				E20D4FC628FC2C4B0037414F /* СЛОТ - Москва.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20D4FCC28FC2E020037414F /* PlayerView.swift in Sources */,
+				E20D4FCE28FC2E950037414F /* Player.swift in Sources */,
 				E20D4FB428FC2ABE0037414F /* ContentView.swift in Sources */,
+				E20D4FD028FC35DA0037414F /* TappableSlider.swift in Sources */,
 				E20D4FB228FC2ABE0037414F /* AerostatPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,6 +308,7 @@
 				DEVELOPMENT_TEAM = H2N6P9225K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AerostatPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +338,7 @@
 				DEVELOPMENT_TEAM = H2N6P9225K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AerostatPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
