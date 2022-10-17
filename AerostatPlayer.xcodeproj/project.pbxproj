@@ -20,6 +20,8 @@
 		E20D4FCC28FC2E020037414F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D4FCB28FC2E010037414F /* PlayerView.swift */; };
 		E20D4FCE28FC2E950037414F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D4FCD28FC2E950037414F /* Player.swift */; };
 		E20D4FD028FC35DA0037414F /* TappableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D4FCF28FC35DA0037414F /* TappableSlider.swift */; };
+		E25E482728FDA6DA001D9CF3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E482628FDA6DA001D9CF3 /* ViewModel.swift */; };
+		E25E482928FDA702001D9CF3 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E482828FDA702001D9CF3 /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		E20D4FCD28FC2E950037414F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E20D4FCF28FC35DA0037414F /* TappableSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableSlider.swift; sourceTree = "<group>"; };
 		E20D4FD328FC45F20037414F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E25E482628FDA6DA001D9CF3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E25E482828FDA702001D9CF3 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,17 +76,11 @@
 			children = (
 				E20D4FD328FC45F20037414F /* Info.plist */,
 				E20D4FB128FC2ABE0037414F /* AerostatPlayerApp.swift */,
-				E20D4FB328FC2ABE0037414F /* ContentView.swift */,
-				E20D4FCB28FC2E010037414F /* PlayerView.swift */,
-				E20D4FCF28FC35DA0037414F /* TappableSlider.swift */,
-				E20D4FCD28FC2E950037414F /* Player.swift */,
+				E25E482A28FDA72C001D9CF3 /* Model */,
+				E25E482B28FDA743001D9CF3 /* Views */,
+				E25E482C28FDA758001D9CF3 /* ViewModels */,
+				E25E482528FDA6A4001D9CF3 /* Audiofiles */,
 				E20D4FB528FC2AC00037414F /* Assets.xcassets */,
-				E20D4FC028FC2C490037414F /* СЛОТ - Москва.mp3 */,
-				E20D4FC228FC2C4B0037414F /* Adriano Celentano - I love you baby.mp3 */,
-				E20D4FC328FC2C4B0037414F /* DMX - Party up.mp3 */,
-				E20D4FC428FC2C4B0037414F /* Enya - Only time.mp3 */,
-				E20D4FC128FC2C4A0037414F /* MC Hammer - U can't touch this.mp3 */,
-				E20D4FBF28FC2C490037414F /* Modern Talking - You're my heart you're my soul.mp3 */,
 				E20D4FB728FC2AC00037414F /* Preview Content */,
 			);
 			path = AerostatPlayer;
@@ -94,6 +92,46 @@
 				E20D4FB828FC2AC00037414F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E25E482528FDA6A4001D9CF3 /* Audiofiles */ = {
+			isa = PBXGroup;
+			children = (
+				E20D4FC028FC2C490037414F /* СЛОТ - Москва.mp3 */,
+				E20D4FC228FC2C4B0037414F /* Adriano Celentano - I love you baby.mp3 */,
+				E20D4FC328FC2C4B0037414F /* DMX - Party up.mp3 */,
+				E20D4FC428FC2C4B0037414F /* Enya - Only time.mp3 */,
+				E20D4FC128FC2C4A0037414F /* MC Hammer - U can't touch this.mp3 */,
+				E20D4FBF28FC2C490037414F /* Modern Talking - You're my heart you're my soul.mp3 */,
+			);
+			path = Audiofiles;
+			sourceTree = "<group>";
+		};
+		E25E482A28FDA72C001D9CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E25E482828FDA702001D9CF3 /* Track.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E25E482B28FDA743001D9CF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E20D4FB328FC2ABE0037414F /* ContentView.swift */,
+				E20D4FCB28FC2E010037414F /* PlayerView.swift */,
+				E20D4FCF28FC35DA0037414F /* TappableSlider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E25E482C28FDA758001D9CF3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E25E482628FDA6DA001D9CF3 /* ViewModel.swift */,
+				E20D4FCD28FC2E950037414F /* Player.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +214,9 @@
 				E20D4FCE28FC2E950037414F /* Player.swift in Sources */,
 				E20D4FB428FC2ABE0037414F /* ContentView.swift in Sources */,
 				E20D4FD028FC35DA0037414F /* TappableSlider.swift in Sources */,
+				E25E482728FDA6DA001D9CF3 /* ViewModel.swift in Sources */,
 				E20D4FB228FC2ABE0037414F /* AerostatPlayerApp.swift in Sources */,
+				E25E482928FDA702001D9CF3 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
