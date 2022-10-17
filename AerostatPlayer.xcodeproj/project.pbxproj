@@ -22,6 +22,8 @@
 		E20D4FD028FC35DA0037414F /* TappableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D4FCF28FC35DA0037414F /* TappableSlider.swift */; };
 		E25E482728FDA6DA001D9CF3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E482628FDA6DA001D9CF3 /* ViewModel.swift */; };
 		E25E482928FDA702001D9CF3 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E482828FDA702001D9CF3 /* Track.swift */; };
+		E25E482E28FDA891001D9CF3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E25E482D28FDA891001D9CF3 /* .gitignore */; };
+		E25E483228FDA8F8001D9CF3 /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = E25E483128FDA8F8001D9CF3 /* Screenshot1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		E20D4FD328FC45F20037414F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E25E482628FDA6DA001D9CF3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E25E482828FDA702001D9CF3 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		E25E482D28FDA891001D9CF3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E25E482F28FDA8B2001D9CF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E25E483128FDA8F8001D9CF3 /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		E20D4FA528FC2ABE0037414F = {
 			isa = PBXGroup;
 			children = (
+				E25E483028FDA8C1001D9CF3 /* Screenshot */,
+				E25E482F28FDA8B2001D9CF3 /* README.md */,
+				E25E482D28FDA891001D9CF3 /* .gitignore */,
 				E20D4FB028FC2ABE0037414F /* AerostatPlayer */,
 				E20D4FAF28FC2ABE0037414F /* Products */,
 			);
@@ -134,6 +142,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		E25E483028FDA8C1001D9CF3 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				E25E483128FDA8F8001D9CF3 /* Screenshot1.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +212,11 @@
 				E20D4FC828FC2C4B0037414F /* Adriano Celentano - I love you baby.mp3 in Resources */,
 				E20D4FB628FC2AC00037414F /* Assets.xcassets in Resources */,
 				E20D4FC528FC2C4B0037414F /* Modern Talking - You're my heart you're my soul.mp3 in Resources */,
+				E25E483228FDA8F8001D9CF3 /* Screenshot1.png in Resources */,
 				E20D4FC928FC2C4B0037414F /* DMX - Party up.mp3 in Resources */,
 				E20D4FCA28FC2C4B0037414F /* Enya - Only time.mp3 in Resources */,
 				E20D4FC728FC2C4B0037414F /* MC Hammer - U can't touch this.mp3 in Resources */,
+				E25E482E28FDA891001D9CF3 /* .gitignore in Resources */,
 				E20D4FC628FC2C4B0037414F /* СЛОТ - Москва.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
